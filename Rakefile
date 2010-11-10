@@ -52,6 +52,10 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
+task :yard do
+  sh "yard"
+end
+
 task :rdoc do
     sh "rdoc -a -p -r -m rhmp.rb --diagram --force"
 end
