@@ -70,5 +70,4 @@ class String
     replace CGI::unescapeHTML(self)
   end
 
-
 end
