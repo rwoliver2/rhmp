@@ -50,4 +50,25 @@ class String
     replace Base64.decode64(self)
   end
 
+  # Escape a string using HTML-escapement
+  def escapeHTML
+    CGI::escapeHTML(self)
+  end
+
+  # Escape a string using HTML-escapement inline
+  def escapeHTML!
+    replace CGI::escapeHTML(self)
+  end
+
+  # Unescape an HTML-escaped string
+  def unescapeHTML
+    CGI::unescapeHTML(self)
+  end
+
+  # Unescape an HTML-escaped string inline
+  def unescapeHTML!
+    replace CGI::unescapeHTML(self)
+  end
+
+
 end

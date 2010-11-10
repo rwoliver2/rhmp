@@ -26,6 +26,7 @@ require 'zlib'
 require 'yaml'
 require 'digest/md5'
 require 'base64'
+require 'cgi'
 
 require 'lib/string'
 require 'lib/file'
