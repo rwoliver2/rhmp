@@ -1,0 +1,55 @@
+digraph TopLevel {
+    label = "TopLevel"
+    compound = true
+    fontname = Arial
+    fontsize = 8
+    bgcolor = lightcyan1
+    node [
+        color = black,
+        fontname = Arial,
+        fontsize = 8
+    ]
+
+    subgraph cluster_RHMP {
+        label = "RHMP"
+        fillcolor = palegreen1
+        URL = "classes/RHMP.html"
+        color = blue
+        fontname = Arial
+        style = filled
+        RHMP [
+            shape = plaintext,
+            height = 0.01,
+            width = 0.01,
+            label = ""
+        ]
+
+        RHMP__Benchmark [
+            fontcolor = black,
+            shape = ellipse,
+            URL = "classes/RHMP/Benchmark.html",
+            color = palegoldenrod,
+            style = filled,
+            label = "Benchmark"
+        ]
+
+        subgraph cluster_RHMP__System {
+            label = "System"
+            fillcolor = palegreen3
+            URL = "classes/RHMP/System.html"
+            color = blue
+            fontname = Arial
+            style = filled
+            RHMP__System [
+                shape = plaintext,
+                height = 0.01,
+                width = 0.75,
+                label = ""
+            ]
+
+        }
+
+    }
+
+}
+

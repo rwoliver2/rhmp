@@ -28,6 +28,26 @@ class String
   # Return an MD5 digest of the string
   def md5
     Digest::MD5.hexdigest(self)
-  end 
+  end
+
+  # Return a Base64 encoded version of the string
+  def encode_base64
+    Base64.b64encode(self)
+  end
+
+  # Return a Base64 decoded version of the string
+  def decode_base64
+    Base64.b64decode(self)
+  end
+
+  # Return a Base64 encoded version of the string
+  def encode_base64!
+    replace Base64.b64encode(self)
+  end
+
+  # Return a Base64 decoded version of the string
+  def decode_base64!
+    replace Base64.b64decode(self)
+  end
 
 end

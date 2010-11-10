@@ -12,6 +12,10 @@
 # possible and easy to customize via overloads.  I hope some of these shortcuts
 # and things I've missed from other programming languages will assist you as well.
 #
+# == EXAMPLES
+# 
+# See the API for usage examples.
+#
 # == LICENSE
 #
 # This program is licensed under the GPL version 2.  Please see the
@@ -21,6 +25,7 @@
 require 'zlib'
 require 'yaml'
 require 'digest/md5'
+require 'base64'
 
 require 'lib/string'
 require 'lib/file'
