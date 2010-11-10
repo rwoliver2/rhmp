@@ -2,6 +2,8 @@ module RHMP
 
   class Benchmark
     
+    # A synthetic, quick and dirty benchmark that gives you a bit of information
+    # about the system you're running the script on.
     def self.benchmark(iterations = 5)
 
       starttime = Time.now
