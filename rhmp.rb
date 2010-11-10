@@ -1,20 +1,21 @@
+#!/usr/bin/env ruby
 #
-# rhmp - Rob's Helpful Monkey Patches
+# = rhmp - Rob's Helpful Monkey Patches
 # Copyright (C) 2010 OCS Solutions, Inc.  All Rights Reserved.
+# Licensed under the GPL version 2.  See LICENSE For details.
 #
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU General Public License
-# as published by the Free Software Foundation; either version 2
-# of the License, or (at your option) any later version.
+# == DESCRIPTION
 #
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
+# The Rob's Helpful Monkey Patches gem (or rhmp for short) is a wacky collection
+# of classes, overloads, and patches that I've found helpful while programming
+# in Ruby.  In true Ruby fashion, I have tried to keep the code as concise as
+# possible and easy to customize via overloads.  I hope some of these shortcuts
+# and things I've missed from other programming languages will assist you as well.
 #
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+# == LICENSE
+#
+# This program is licensed under the GPL version 2.  Please see the
+# README file for more information.
 #
 
 require 'zlib'
