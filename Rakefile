@@ -5,9 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rhmp"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "rwoliver2@gmail.com"
+    gem.summary = %Q{Rob's Helpful Monkey Patches}
+    gem.description = %Q{A collection of useful classes, patches, and overrides for Ruby}
+    gem.email = "rob@ocstech.com"
     gem.homepage = "http://github.com/rwoliver2/rhmp"
     gem.authors = ["Robert Oliver"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
