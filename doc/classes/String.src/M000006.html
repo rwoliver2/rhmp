@@ -5,14 +5,14 @@
 
 <html>
 <head>
-  <title>first_words (String)</title>
+  <title>md5 (String)</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <link rel="stylesheet" href="../.././rdoc-style.css" type="text/css" media="screen" />
 </head>
 <body class="standalone-code">
-  <pre><span class="ruby-comment cmt"># File lib/string.rb, line 15</span>
-  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">first_words</span>(<span class="ruby-identifier">count</span>)
-    <span class="ruby-identifier">each_word</span>.<span class="ruby-identifier">first</span>(<span class="ruby-identifier">count</span>).<span class="ruby-identifier">join</span>(<span class="ruby-value str">&quot; &quot;</span>)
+  <pre><span class="ruby-comment cmt"># File lib/string.rb, line 29</span>
+  <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">md5</span>
+    <span class="ruby-constant">Digest</span><span class="ruby-operator">::</span><span class="ruby-constant">MD5</span>.<span class="ruby-identifier">hexdigest</span>(<span class="ruby-keyword kw">self</span>)
   <span class="ruby-keyword kw">end</span></pre>
 </body>
 </html>

@@ -5,8 +5,10 @@
 
 require 'zlib'
 require 'yaml'
+require 'digest/md5'
 
 require 'lib/string'
+require 'lib/file'
 require 'lib/compress'
 require 'lib/benchmark'
 require 'lib/ruby187fix'
