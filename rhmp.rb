@@ -8,3 +8,4 @@ require 'yaml'
 
 require 'lib/string'
 require 'lib/compress'
+require 'lib/benchmark'
