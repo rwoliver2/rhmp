@@ -32,22 +32,22 @@ class String
 
   # Return a Base64 encoded version of the string
   def encode_base64
-    Base64.b64encode(self)
+    Base64.encode64(self)
   end
 
   # Return a Base64 decoded version of the string
   def decode_base64
-    Base64.b64decode(self)
+    Base64.decode64(self)
   end
 
   # Return a Base64 encoded version of the string
   def encode_base64!
-    replace Base64.b64encode(self)
+    replace Base64.encode64(self)
   end
 
   # Return a Base64 decoded version of the string
   def decode_base64!
-    replace Base64.b64decode(self)
+    replace Base64.decode64(self)
   end
 
 end

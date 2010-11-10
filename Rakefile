@@ -1,5 +1,5 @@
 task :rdoc do
-  sh "rdoc -a -p -m rhmp.rb --diagram --force"
+  sh "rdoc -a -p -r -m rhmp.rb --diagram --force"
 end
 
 task :console do
