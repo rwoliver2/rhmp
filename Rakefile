@@ -10,7 +10,6 @@ begin
     gem.email = "rob@ocstech.com"
     gem.homepage = "http://github.com/rwoliver2/rhmp"
     gem.authors = ["Robert Oliver"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

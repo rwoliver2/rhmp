@@ -1,5 +1,15 @@
 class String
 
+  # Add slashes to a string
+  def add_slashes
+    self.gsub(/['"\\\x0]/,'\\\\\0')
+  end
+  
+  # Convert /n to <br />
+  def nl2br
+    self.gsub("\n", "<br />\n")
+  end
+
   # Capitalize each word in a string
   def capitalize_each
     self.split(" ").each{|word| word.capitalize!}.join(" ")

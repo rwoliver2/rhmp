@@ -31,5 +31,4 @@ require 'cgi'
 require 'lib/string'
 require 'lib/file'
 require 'lib/compress'
-require 'lib/benchmark'
-require 'lib/ruby187fix'
+
